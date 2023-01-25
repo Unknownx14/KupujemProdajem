@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+
+<listeners>
+	<listener class-name="Academy.TestComponents.Listeners02"></listener>
+	<listener class-name="Academy.TestComponents.TestRetryAnalyzerListener"></listener>
+</listeners>
+
+  <test thread-count="5" name="Search Product Test">
+    <classes>
+      <class name="Academy.KP18012023.SearchTest08"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test thread-count="5" name="Error Handling Test">
+    <classes>
+      <class name="Academy.KP18012023.ErrorValidationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

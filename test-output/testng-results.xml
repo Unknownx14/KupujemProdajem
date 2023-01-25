@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T11:15:12 CET" name="Suite" finished-at="2023-01-25T11:15:47 CET" duration-ms="35435">
+    <groups>
+      <group name="ErrorValidations">
+        <method signature="ErrorValidationTest.WrongCrededntials()[pri:0, instance:Academy.KP18012023.ErrorValidationTest@8dbfffb]" name="WrongCrededntials" class="Academy.KP18012023.ErrorValidationTest"/>
+      </group> <!-- ErrorValidations -->
+      <group name="Search">
+        <method signature="SearchTest08.searcProduct(java.util.HashMap)[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" name="searcProduct" class="Academy.KP18012023.SearchTest08"/>
+      </group> <!-- Search -->
+    </groups>
+    <test started-at="2023-01-25T11:15:12 CET" name="Error Handling Test" finished-at="2023-01-25T11:15:28 CET" duration-ms="15910">
+      <class name="Academy.KP18012023.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.KP18012023.ErrorValidationTest@8dbfffb]" started-at="2023-01-25T11:15:12 CET" name="launchApplication" finished-at="2023-01-25T11:15:24 CET" duration-ms="11946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="WrongCrededntials()[pri:0, instance:Academy.KP18012023.ErrorValidationTest@8dbfffb]" started-at="2023-01-25T11:15:24 CET" name="WrongCrededntials" finished-at="2023-01-25T11:15:27 CET" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongCrededntials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.KP18012023.ErrorValidationTest@8dbfffb]" started-at="2023-01-25T11:15:27 CET" name="closeBrowser" finished-at="2023-01-25T11:15:28 CET" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.KP18012023.ErrorValidationTest -->
+    </test> <!-- Error Handling Test -->
+    <test started-at="2023-01-25T11:15:12 CET" name="Search Product Test" finished-at="2023-01-25T11:15:47 CET" duration-ms="35435">
+      <class name="Academy.KP18012023.SearchTest08">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" started-at="2023-01-25T11:15:13 CET" name="launchApplication" finished-at="2023-01-25T11:15:26 CET" duration-ms="13670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searcProduct(java.util.HashMap)[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" started-at="2023-01-25T11:15:26 CET" name="searcProduct" data-provider="getData" finished-at="2023-01-25T11:15:34 CET" duration-ms="7382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{wantedCategoryHM=Mobilni telefoni, wantedProductHM=Samsung}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searcProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" started-at="2023-01-25T11:15:34 CET" name="closeBrowser" finished-at="2023-01-25T11:15:35 CET" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" started-at="2023-01-25T11:15:35 CET" name="launchApplication" finished-at="2023-01-25T11:15:40 CET" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searcProduct(java.util.HashMap)[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" started-at="2023-01-25T11:15:40 CET" name="searcProduct" data-provider="getData" finished-at="2023-01-25T11:15:47 CET" duration-ms="6733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{wantedCategoryHM=Mobilni telefoni, wantedProductHM=Apple iPhone}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searcProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Academy.KP18012023.SearchTest08@19835e64]" started-at="2023-01-25T11:15:47 CET" name="closeBrowser" finished-at="2023-01-25T11:15:47 CET" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.KP18012023.SearchTest08 -->
+    </test> <!-- Search Product Test -->
+  </suite> <!-- Suite -->
+</testng-results>
